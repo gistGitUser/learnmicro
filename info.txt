@@ -1,0 +1,18 @@
+
+https://www.youtube.com/watch?v=eBeqtmrvVpg&list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_&index=3
+ на основе этого курса вполне можно сделать
+ что-то своё
+
+
+устновить определенную версию
+
+ git clone [remote_address_here] my_repo
+ cd my_repo
+ git reset --hard [ENTER HERE THE COMMIT HASH YOU WANT]
+
+
+ https://stackoverflow.com/questions/17792509/git-checkout-without-clone
+
+curl localhost:9090 | jq
+curl localhost:9090 -XPOST -d '{"Name":"New Product"}'
+curl localhost:9090 -XPOST -d '{"Name":"New Product", "Price":15.00,"sku":"d-d-d"}' -v
